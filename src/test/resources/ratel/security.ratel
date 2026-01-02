@@ -1,0 +1,8 @@
+SCENARIO "Access audit"
+TARGET "http://localhost:8080"
+WITH_SCOPE KERNEL
+
+STEP "Secure transport verification"
+    ATTACK secure_headers
+    CHECK header "Strict-Transport-Security" EXISTS
+    CHECK response.status BE 200

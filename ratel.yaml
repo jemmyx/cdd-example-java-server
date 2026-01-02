@@ -1,0 +1,7 @@
+version: 0.5.0
+project_type: Java/JVM
+context: generic
+initialized_at: 2026-01-02T22:52:11.752077300Z
+customized_at: null
+expert_hashes:
+  src/test/resources/ratel/security.ratel: 85fda6e0398d18f12dc4b487b143ae3c2db71d2b51bf3c5ab02a33d30f6cb7f5
